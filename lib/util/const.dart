@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class Constants{
-  static String appName = "Social app";
+  static String appName = "Social App";
 
   // Colors Theme
   static Color lightPrimary = Color(0xfffcfcff);
   static Color darkPrimary = Colors.black;
-  static Color lightAccent = Colors.blue;
+  static Color lightAccent = Colors.indigoAccent[200];
   static Color darkAccent = Colors.blueAccent;
   static Color lightBG = Color(0xfffcfcff);
   static Color darkBG = Colors.black;
