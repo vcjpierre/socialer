@@ -1,6 +1,11 @@
-# flutter_social_app
+# Flutter Social App 🤳
+A Social App UI built with Flutter.
 
-A new Flutter project.
+<p align="center">
+    <img src="docs/Screenshot_1563388115.png" height="500em"/>
+    <img src="docs/Screenshot_1563388127.png" height="500em"/>
+    <img src="docs/Screenshot_1563388135.png" height="500em"/>
+</p>
 
 ## Getting Started
 
@@ -14,3 +19,5 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+Based of this post [Building a Social app UI with Flutter](https://medium.com/@guruliciousjide/building-a-social-app-ui-with-flutter-af3d2317dc10)
