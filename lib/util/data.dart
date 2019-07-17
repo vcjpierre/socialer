@@ -1,17 +1,17 @@
 import 'dart:math';
 Random random = Random();
 List names = [
-  "Ling Waldner",
-  "Gricelda Barrera",
-  "Lenard Milton",
-  "Bryant Marley",
-  "Rosalva Sadberry",
-  "Guadalupe Ratledge",
-  "Brandy Gazda",
-  "Kurt Toms",
-  "Rosario Gathright",
-  "Kim Delph",
-  "Stacy Christensen",
+  "Lisa Wallace",
+  "Alexis Fox",
+  "Cory Willis",
+  "Luke Wade",
+  "Lucy Payne",
+  "Rebecca Reynolds",
+  "Peter Morgan",
+  "Clyde Hughes",
+  "Marlene Lawrence",
+  "Sophia Gordon",
+  "Vanessa Richardson",
 ];
 
 List messages = [
@@ -21,7 +21,7 @@ List messages = [
   "This cracked me up 😂😂",
   "Flutter Rocks!!!",
   "The last rocket🚀",
-  "Griezmann signed for Barca❤️❤️",
+  "Yes❤️❤️",
   "Will you be attending the meetup tomorrow?",
   "Are you angry at something?",
   "Let's make a UI serie.",
@@ -44,21 +44,21 @@ List notifs = [
 
 List notifications = List.generate(13, (index)=>{
   "name": names[random.nextInt(10)],
-  "dp": "assets/cm${random.nextInt(10)}.jpeg",
+  "dp": "assets/cm_${random.nextInt(10)}.jpg",
   "time": "${random.nextInt(50)} min ago",
   "notif": notifs[random.nextInt(10)]
 });
 
 List posts = List.generate(13, (index)=>{
     "name": names[random.nextInt(10)],
-    "dp": "assets/cm${random.nextInt(10)}.jpeg",
+    "dp": "assets/cm_${random.nextInt(10)}.jpg",
     "time": "${random.nextInt(50)} min ago",
-    "img": "assets/cm${random.nextInt(10)}.jpeg"
+    "img": "assets/cm_${random.nextInt(10)}.jpg"
 });
 
 List chats = List.generate(13, (index)=>{
   "name": names[random.nextInt(10)],
-  "dp": "assets/cm${random.nextInt(10)}.jpeg",
+  "dp": "assets/cm_${random.nextInt(10)}.jpg",
   "msg": messages[random.nextInt(10)],
   "counter": random.nextInt(20),
   "time": "${random.nextInt(50)} min ago",
@@ -67,7 +67,7 @@ List chats = List.generate(13, (index)=>{
 
 List groups = List.generate(13, (index)=>{
   "name": "Group ${random.nextInt(20)}",
-  "dp": "assets/cm${random.nextInt(10)}.jpeg",
+  "dp": "assets/cm_${random.nextInt(10)}.jpg",
   "msg": messages[random.nextInt(10)],
   "counter": random.nextInt(20),
   "time": "${random.nextInt(50)} min ago",
@@ -87,7 +87,7 @@ List conversation = List.generate(10, (index)=>{
 
 List friends = List.generate(13, (index)=>{
   "name": names[random.nextInt(10)],
-  "dp": "assets/cm${random.nextInt(10)}.jpeg",
+  "dp": "assets/cm_${random.nextInt(10)}.jpg",
   "status": "Anything could be here",
   "isAccept": random.nextBool(),
 });
