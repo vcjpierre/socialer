@@ -1,4 +1,4 @@
-<h1 align="center">Flutter Social 🤳</h1>
+<h1 align="center"> Social App 🤳</h1>
 <p align="center">A Social App UI built with Flutter.</p>
 
 
