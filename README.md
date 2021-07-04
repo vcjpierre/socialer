@@ -1,4 +1,4 @@
-<h1 align="center"> Social App 🤳</h1>
+<h1 align="center"> Socialer 🤳</h1>
 
 <p align="center">
     <img src="docs/Screenshot_1563388127.png" height="500em"/>
