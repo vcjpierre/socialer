@@ -1,6 +1,4 @@
 <h1 align="center"> Social App 🤳</h1>
-<p align="center">A Social App UI built with Flutter.</p>
-
 
 <p align="center">
     <img src="docs/Screenshot_1563388127.png" height="500em"/>
